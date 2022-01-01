@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "an animated to-do app",
+    "githubUrl": "https://github.com/myk4040okothogodo/animatedTo-do"
   }
 }

@@ -6,6 +6,8 @@ import TaskList from '../components/task-list'
 import shortid from 'shortid'
 import Masthead from '../components/masthead'
 import NavBar from '../components/navbar'
+import Actions from '../components/actions'
+
 
 const initialData = [
   {
@@ -123,6 +125,7 @@ export default function MainScreen() {
           setEditingItemId(id)
         }}
       />
+      <Actions  />
     </AnimatedColorBox>
   )
 }
