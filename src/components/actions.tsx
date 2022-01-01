@@ -60,15 +60,15 @@ const Action = ({ action, index }) => (
     transition={{ delay: index * 100, damping: 15 }}
     from={{
       opacity: 0,
-      translateX: 0
+      translateY: 0
     }}
     animate={{
       opacity: 1,
-      translateX: -60 * (index + 1),
+      translateY: -60 * (index + 1),
     }}
     exit={{
       opacity: 0,
-      translateX: 0
+      translateY: 0
     }}>
       <Pressable
           onPress={action.onPress}
